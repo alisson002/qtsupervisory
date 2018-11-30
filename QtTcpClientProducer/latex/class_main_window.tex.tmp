@@ -1,0 +1,43 @@
+\hypertarget{class_main_window}{}\section{Main\+Window Class Reference}
+\label{class_main_window}\index{Main\+Window@{Main\+Window}}
+
+
+Inheritance diagram for Main\+Window\+:
+% FIG 0
+
+
+Collaboration diagram for Main\+Window\+:
+% FIG 1
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_main_window_ac5b669957c442b6eb68573dacfce33e1}\label{class_main_window_ac5b669957c442b6eb68573dacfce33e1}} 
+void \mbox{\hyperlink{class_main_window_ac5b669957c442b6eb68573dacfce33e1}{tcp\+Connect}} ()
+\begin{DoxyCompactList}\small\item\em tcp\+Connect\+: Realiza a conexão entre cliente produtor e servidor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_main_window_a4d22c4c7afc7ba0a2fa4c70515c85dda}\label{class_main_window_a4d22c4c7afc7ba0a2fa4c70515c85dda}} 
+void \mbox{\hyperlink{class_main_window_a4d22c4c7afc7ba0a2fa4c70515c85dda}{tcp\+Disconnect}} ()
+\begin{DoxyCompactList}\small\item\em tcp\+Disconnect\+: Encerra a conexão entre o cliente produtor e servidor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_main_window_a5edcbc314e782645cdf4db101eeb247d}\label{class_main_window_a5edcbc314e782645cdf4db101eeb247d}} 
+void \mbox{\hyperlink{class_main_window_a5edcbc314e782645cdf4db101eeb247d}{start}} ()
+\begin{DoxyCompactList}\small\item\em start\+: Inicia o temporizador \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_main_window_a939e90ddfe07d74be87b351ca2171fb0}\label{class_main_window_a939e90ddfe07d74be87b351ca2171fb0}} 
+void \mbox{\hyperlink{class_main_window_a939e90ddfe07d74be87b351ca2171fb0}{stop}} ()
+\begin{DoxyCompactList}\small\item\em stop\+: Finaliza o temporizador \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_main_window_a686bf087a61fab933c701a1ac9ea1559}\label{class_main_window_a686bf087a61fab933c701a1ac9ea1559}} 
+void \mbox{\hyperlink{class_main_window_a686bf087a61fab933c701a1ac9ea1559}{timings}} ()
+\begin{DoxyCompactList}\small\item\em timings \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_main_window_afdfeb13ec363b0eb8ecacaf0aa13b605}\label{class_main_window_afdfeb13ec363b0eb8ecacaf0aa13b605}} 
+void \mbox{\hyperlink{class_main_window_afdfeb13ec363b0eb8ecacaf0aa13b605}{put\+Data}} ()
+\begin{DoxyCompactList}\small\item\em put\+Data\+: Faz o envio dos dados aleatórios gerados \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}\label{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}} 
+{\bfseries Main\+Window} (Q\+Widget $\ast$parent=0)
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+mainwindow.\+h\item 
+mainwindow.\+cpp\end{DoxyCompactItemize}
