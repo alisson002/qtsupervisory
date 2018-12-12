@@ -1,0 +1,73 @@
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+#include <QMainWindow>
+#include <QTcpSocket>
+#include <QDebug>
+
+namespace Ui {
+
+    class MainWindow;
+
+}
+
+class MainWindow : public QMainWindow
+{
+  
+   Q_OBJECT
+
+public:
+    
+  explicit MainWindow(QWidget *parent = 0);
+  
+  ~MainWindow();
+  
+public slots:
+    
+   /**
+   * @brief tcpConnect: Conecta no endereço
+   */  
+  void tcpConnect();
+  
+  /**
+   * @brief tcpDisconnect: Desconecta do endereço
+   */
+  void tcpDisconnect();
+
+  /**
+   * @brief start: Começa a produzir os dados
+   */
+  void start();
+  
+  /**
+   * @brief stop: para de produzir os dados
+   */
+  void stop();
+  
+  /**
+   * @brief timings: Seta o tempo entre uma chamada e outra
+   * @param sec parametro do valor do segundo
+   */
+  void timings(int sec);
+  
+  /**
+   * @brief update: Atualiza a lista de endereços possiveis para acessar
+   */
+  void update();
+  
+  void timerEvent(QTimerEvent *event);
+  
+private:
+  
+  Ui::MainWindow *ui;
+  
+  QTcpSocket *socket;
+  
+  bool inicia;
+  
+  int temporizador;
+  
+  int sec;
+  
+};
+
+#endif // MAINWINDOW_H

@@ -47,7 +47,7 @@ public slots:
    * @brief putData: Faz o envio dos dados aleatórios gerados
    */
   void putData();
- // void timerEvent(QTimerEvent *event);
+ void timerEvent(QTimerEvent *event);
 
 private:
   /**

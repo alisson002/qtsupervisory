@@ -1,0 +1,39 @@
+#ifndef PLOTTER_H
+#define PLOTTER_H
+#include <QWidget>
+#include <vector>
+
+using namespace std;
+
+class Plotter : public QWidget{
+    
+    Q_OBJECT
+    
+private:
+    
+public:
+    
+    /**
+     * @brief Plotter: Construtor com argumentos
+     * @param parent
+     */
+    Plotter(QWidget *parent = nullptr);
+    /**
+     * @brief paintEvent: Visual da tela de fundo e do gráfico
+     * @param event
+     */
+    void paintEvent(QPaintEvent *event);
+    /**
+     * @brief plotGrafico: Plota o gráfico baseado nos dados recebidos
+     * @param t
+     * @param v
+     */
+    void plotGrafico(vector<qint64> &t,vector<int> &v);
+    
+signals:
+
+public slots:
+    
+};
+
+#endif // PLOTTER_H

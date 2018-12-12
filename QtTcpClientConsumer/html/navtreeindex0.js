@@ -1,0 +1,27 @@
+var NAVTREEINDEX0 =
+{
+"annotated.html":[0,0],
+"class_main_window.html":[0,0,0],
+"class_main_window.html#a128f71880d4b9683149023fc46fcc9f8":[0,0,0,8],
+"class_main_window.html#a3613ef775489a7934cbb2f2a0c241a74":[0,0,0,2],
+"class_main_window.html#a4fa75cec1aa7eeca94028dbcb58bbe14":[0,0,0,4],
+"class_main_window.html#a5edcbc314e782645cdf4db101eeb247d":[0,0,0,5],
+"class_main_window.html#a6d91a01cd024fa6141b888116b8fe7e9":[0,0,0,3],
+"class_main_window.html#a8b244be8b7b7db1b08de2a2acb9409db":[0,0,0,0],
+"class_main_window.html#a939e90ddfe07d74be87b351ca2171fb0":[0,0,0,6],
+"class_main_window.html#aaa425b1554af3c1f58cc70b4815082ae":[0,0,0,7],
+"class_main_window.html#ae98d00a93bc118200eeef9f9bba1dba7":[0,0,0,1],
+"class_plotter.html":[0,0,1],
+"class_plotter.html#a06477bf987646f000a8982db1352a11d":[0,0,1,1],
+"class_plotter.html#a1807627530de30ae58dff3c42a823497":[0,0,1,0],
+"class_plotter.html#a29034483f5519c5bf9dac3ac849e0466":[0,0,1,2],
+"classes.html":[0,1],
+"files.html":[1,0],
+"functions.html":[0,3,0],
+"functions_func.html":[0,3,1],
+"hierarchy.html":[0,2],
+"index.html":[],
+"mainwindow_8h_source.html":[1,0,0],
+"pages.html":[],
+"plotter_8h_source.html":[1,0,1]
+};
