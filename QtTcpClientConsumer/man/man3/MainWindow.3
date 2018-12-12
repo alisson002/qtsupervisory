@@ -1,0 +1,95 @@
+.TH "MainWindow" 3 "Wed Dec 12 2018" "Version 1.0.0" "Consumidor" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MainWindow
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <mainwindow\&.h>\fP
+.PP
+Inherits QMainWindow\&.
+.SS "Public Slots"
+
+.in +1c
+.ti -1c
+.RI "void \fBtcpConnect\fP ()"
+.br
+.ti -1c
+.RI "void \fBtcpDisconnect\fP ()"
+.br
+.RI "DisconnectAdress Classe para se desconectar do endereço\&. "
+.ti -1c
+.RI "void \fBstart\fP ()"
+.br
+.RI "start Classe para começar a produzir os dados "
+.ti -1c
+.RI "void \fBstop\fP ()"
+.br
+.RI "stop Classe para parar de produzir os dados "
+.ti -1c
+.RI "void \fBtimings\fP (int sec)"
+.br
+.RI "PegaSeg: Set o tempo entre uma chamada e outra\&. "
+.ti -1c
+.RI "void \fBupdate\fP ()"
+.br
+.RI "update: Atualiza a lista de endereços possiveis para acessar "
+.ti -1c
+.RI "void \fBtimerEvent\fP (QTimerEvent *event)"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMainWindow\fP (QWidget *parent=0)"
+.br
+.ti -1c
+.RI "\fB~MainWindow\fP ()"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "MainWindow::MainWindow (QWidget * parent = \fC0\fP)\fC [explicit]\fP"
+
+.SS "MainWindow::~MainWindow ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void MainWindow::start ()\fC [slot]\fP"
+
+.PP
+start Classe para começar a produzir os dados 
+.SS "void MainWindow::stop ()\fC [slot]\fP"
+
+.PP
+stop Classe para parar de produzir os dados 
+.SS "void MainWindow::tcpConnect ()\fC [slot]\fP"
+
+.SS "void MainWindow::tcpDisconnect ()\fC [slot]\fP"
+
+.PP
+DisconnectAdress Classe para se desconectar do endereço\&. 
+.SS "void MainWindow::timerEvent (QTimerEvent * event)\fC [slot]\fP"
+
+.SS "void MainWindow::timings (int sec)\fC [slot]\fP"
+
+.PP
+PegaSeg: Set o tempo entre uma chamada e outra\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsec\fP parametro do valor do segundo 
+.RE
+.PP
+
+.SS "void MainWindow::update ()\fC [slot]\fP"
+
+.PP
+update: Atualiza a lista de endereços possiveis para acessar 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Consumidor from the source code\&.

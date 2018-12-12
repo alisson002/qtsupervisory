@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['disconnectadress',['DisconnectAdress',['../class_main_window.html#a6d91a01cd024fa6141b888116b8fe7e9',1,'MainWindow']]]
+  ['main',['main',['../main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main.cpp']]],
+  ['mainwindow',['MainWindow',['../class_main_window.html#a8b244be8b7b7db1b08de2a2acb9409db',1,'MainWindow']]]
 ];

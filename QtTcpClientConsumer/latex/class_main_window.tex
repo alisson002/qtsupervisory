@@ -1,5 +1,9 @@
 \hypertarget{class_main_window}{}\section{Main\+Window Class Reference}
 \label{class_main_window}\index{Main\+Window@{Main\+Window}}
+
+
+{\ttfamily \#include $<$mainwindow.\+h$>$}
+
 Inheritance diagram for Main\+Window\+:\begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -9,53 +13,115 @@ Inheritance diagram for Main\+Window\+:\begin{figure}[H]
 \subsection*{Public Slots}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_main_window_a3613ef775489a7934cbb2f2a0c241a74}\label{class_main_window_a3613ef775489a7934cbb2f2a0c241a74}} 
-void {\bfseries Connect\+Adress} ()
+void \mbox{\hyperlink{class_main_window_ac5b669957c442b6eb68573dacfce33e1}{tcp\+Connect}} ()
 \item 
-\mbox{\Hypertarget{class_main_window_a6d91a01cd024fa6141b888116b8fe7e9}\label{class_main_window_a6d91a01cd024fa6141b888116b8fe7e9}} 
-void \mbox{\hyperlink{class_main_window_a6d91a01cd024fa6141b888116b8fe7e9}{Disconnect\+Adress}} ()
+void \mbox{\hyperlink{class_main_window_a4d22c4c7afc7ba0a2fa4c70515c85dda}{tcp\+Disconnect}} ()
 \begin{DoxyCompactList}\small\item\em Disconnect\+Adress Classe para se desconectar do endereço. \end{DoxyCompactList}\item 
-\mbox{\Hypertarget{class_main_window_a5edcbc314e782645cdf4db101eeb247d}\label{class_main_window_a5edcbc314e782645cdf4db101eeb247d}} 
 void \mbox{\hyperlink{class_main_window_a5edcbc314e782645cdf4db101eeb247d}{start}} ()
 \begin{DoxyCompactList}\small\item\em start Classe para começar a produzir os dados \end{DoxyCompactList}\item 
-\mbox{\Hypertarget{class_main_window_a939e90ddfe07d74be87b351ca2171fb0}\label{class_main_window_a939e90ddfe07d74be87b351ca2171fb0}} 
 void \mbox{\hyperlink{class_main_window_a939e90ddfe07d74be87b351ca2171fb0}{stop}} ()
 \begin{DoxyCompactList}\small\item\em stop Classe para parar de produzir os dados \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_main_window_a4fa75cec1aa7eeca94028dbcb58bbe14}{Pega\+Seg}} (int seg)
-\begin{DoxyCompactList}\small\item\em Pega\+Seg Set o tempo entre uma chamada e outra. \end{DoxyCompactList}\item 
-\mbox{\Hypertarget{class_main_window_a128f71880d4b9683149023fc46fcc9f8}\label{class_main_window_a128f71880d4b9683149023fc46fcc9f8}} 
+void \mbox{\hyperlink{class_main_window_ad4393fd0668b17a585c39d8824d9a275}{timings}} (int sec)
+\begin{DoxyCompactList}\small\item\em Pega\+Seg\+: Set o tempo entre uma chamada e outra. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_main_window_a128f71880d4b9683149023fc46fcc9f8}{update}} ()
-\begin{DoxyCompactList}\small\item\em update Classa para renovar a lista de endereços possiveis para acessar \end{DoxyCompactList}\item 
-\mbox{\Hypertarget{class_main_window_aaa425b1554af3c1f58cc70b4815082ae}\label{class_main_window_aaa425b1554af3c1f58cc70b4815082ae}} 
-void {\bfseries timer\+Event} (Q\+Timer\+Event $\ast$event)
+\begin{DoxyCompactList}\small\item\em update\+: Atualiza a lista de endereços possiveis para acessar \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_main_window_aaa425b1554af3c1f58cc70b4815082ae}{timer\+Event}} (Q\+Timer\+Event $\ast$event)
 \end{DoxyCompactItemize}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}\label{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}} 
-{\bfseries Main\+Window} (Q\+Widget $\ast$parent=0)
+\mbox{\hyperlink{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}{Main\+Window}} (Q\+Widget $\ast$parent=0)
+\item 
+\mbox{\hyperlink{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}{$\sim$\+Main\+Window}} ()
 \end{DoxyCompactItemize}
 
 
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}\label{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}} 
+\index{Main\+Window@{Main\+Window}!Main\+Window@{Main\+Window}}
+\index{Main\+Window@{Main\+Window}!Main\+Window@{Main\+Window}}
+\subsubsection{\texorpdfstring{Main\+Window()}{MainWindow()}}
+{\footnotesize\ttfamily Main\+Window\+::\+Main\+Window (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+\mbox{\Hypertarget{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}\label{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}} 
+\index{Main\+Window@{Main\+Window}!````~Main\+Window@{$\sim$\+Main\+Window}}
+\index{````~Main\+Window@{$\sim$\+Main\+Window}!Main\+Window@{Main\+Window}}
+\subsubsection{\texorpdfstring{$\sim$\+Main\+Window()}{~MainWindow()}}
+{\footnotesize\ttfamily Main\+Window\+::$\sim$\+Main\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
 \subsection{Member Function Documentation}
-\mbox{\Hypertarget{class_main_window_a4fa75cec1aa7eeca94028dbcb58bbe14}\label{class_main_window_a4fa75cec1aa7eeca94028dbcb58bbe14}} 
-\index{Main\+Window@{Main\+Window}!Pega\+Seg@{Pega\+Seg}}
-\index{Pega\+Seg@{Pega\+Seg}!Main\+Window@{Main\+Window}}
-\subsubsection{\texorpdfstring{Pega\+Seg}{PegaSeg}}
-{\footnotesize\ttfamily void Main\+Window\+::\+Pega\+Seg (\begin{DoxyParamCaption}\item[{int}]{seg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+\mbox{\Hypertarget{class_main_window_a5edcbc314e782645cdf4db101eeb247d}\label{class_main_window_a5edcbc314e782645cdf4db101eeb247d}} 
+\index{Main\+Window@{Main\+Window}!start@{start}}
+\index{start@{start}!Main\+Window@{Main\+Window}}
+\subsubsection{\texorpdfstring{start}{start}}
+{\footnotesize\ttfamily void Main\+Window\+::start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
 
 
 
-Pega\+Seg Set o tempo entre uma chamada e outra. 
+start Classe para começar a produzir os dados 
+
+\mbox{\Hypertarget{class_main_window_a939e90ddfe07d74be87b351ca2171fb0}\label{class_main_window_a939e90ddfe07d74be87b351ca2171fb0}} 
+\index{Main\+Window@{Main\+Window}!stop@{stop}}
+\index{stop@{stop}!Main\+Window@{Main\+Window}}
+\subsubsection{\texorpdfstring{stop}{stop}}
+{\footnotesize\ttfamily void Main\+Window\+::stop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+stop Classe para parar de produzir os dados 
+
+\mbox{\Hypertarget{class_main_window_ac5b669957c442b6eb68573dacfce33e1}\label{class_main_window_ac5b669957c442b6eb68573dacfce33e1}} 
+\index{Main\+Window@{Main\+Window}!tcp\+Connect@{tcp\+Connect}}
+\index{tcp\+Connect@{tcp\+Connect}!Main\+Window@{Main\+Window}}
+\subsubsection{\texorpdfstring{tcp\+Connect}{tcpConnect}}
+{\footnotesize\ttfamily void Main\+Window\+::tcp\+Connect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_a4d22c4c7afc7ba0a2fa4c70515c85dda}\label{class_main_window_a4d22c4c7afc7ba0a2fa4c70515c85dda}} 
+\index{Main\+Window@{Main\+Window}!tcp\+Disconnect@{tcp\+Disconnect}}
+\index{tcp\+Disconnect@{tcp\+Disconnect}!Main\+Window@{Main\+Window}}
+\subsubsection{\texorpdfstring{tcp\+Disconnect}{tcpDisconnect}}
+{\footnotesize\ttfamily void Main\+Window\+::tcp\+Disconnect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Disconnect\+Adress Classe para se desconectar do endereço. 
+
+\mbox{\Hypertarget{class_main_window_aaa425b1554af3c1f58cc70b4815082ae}\label{class_main_window_aaa425b1554af3c1f58cc70b4815082ae}} 
+\index{Main\+Window@{Main\+Window}!timer\+Event@{timer\+Event}}
+\index{timer\+Event@{timer\+Event}!Main\+Window@{Main\+Window}}
+\subsubsection{\texorpdfstring{timer\+Event}{timerEvent}}
+{\footnotesize\ttfamily void Main\+Window\+::timer\+Event (\begin{DoxyParamCaption}\item[{Q\+Timer\+Event $\ast$}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+\mbox{\Hypertarget{class_main_window_ad4393fd0668b17a585c39d8824d9a275}\label{class_main_window_ad4393fd0668b17a585c39d8824d9a275}} 
+\index{Main\+Window@{Main\+Window}!timings@{timings}}
+\index{timings@{timings}!Main\+Window@{Main\+Window}}
+\subsubsection{\texorpdfstring{timings}{timings}}
+{\footnotesize\ttfamily void Main\+Window\+::timings (\begin{DoxyParamCaption}\item[{int}]{sec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Pega\+Seg\+: Set o tempo entre uma chamada e outra. 
 
 
 \begin{DoxyParams}{Parameters}
-{\em seg} & parametro do valor do segundo \\
+{\em sec} & parametro do valor do segundo \\
 \hline
 \end{DoxyParams}
+\mbox{\Hypertarget{class_main_window_a128f71880d4b9683149023fc46fcc9f8}\label{class_main_window_a128f71880d4b9683149023fc46fcc9f8}} 
+\index{Main\+Window@{Main\+Window}!update@{update}}
+\index{update@{update}!Main\+Window@{Main\+Window}}
+\subsubsection{\texorpdfstring{update}{update}}
+{\footnotesize\ttfamily void Main\+Window\+::update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+update\+: Atualiza a lista de endereços possiveis para acessar 
+
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-mainwindow.\+h\item 
-mainwindow.\+cpp\end{DoxyCompactItemize}
+\mbox{\hyperlink{mainwindow_8h}{mainwindow.\+h}}\item 
+\mbox{\hyperlink{mainwindow_8cpp}{mainwindow.\+cpp}}\end{DoxyCompactItemize}
